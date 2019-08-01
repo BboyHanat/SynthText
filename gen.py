@@ -76,7 +76,7 @@ def add_res_to_db(imgname,res,db):
     db['data'][dname].attrs['txt'] = L
 
 
-def main(viz=False):
+def main(viz=True):
   # open databases:
   print (colorize(Color.BLUE,'getting data..',bold=True))
   db = get_data()
